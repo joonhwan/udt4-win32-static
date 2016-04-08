@@ -1,0 +1,23 @@
+﻿Build started 2016-04-08 오후 10:49:20.
+     1>Project "C:\prj\udt4\win\recvfile.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (../app\) contains files shared from another project (appclient.vcxproj, appserver.vcxproj, sendfile.vcxproj, test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>InitializeBuildStatus:
+         Touching "../app\recvfile.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /Zi /nologo /W4 /WX- /O2 /Ob1 /Oy /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../app\\" /Fd"../app\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\app\recvfile.cpp
+         recvfile.cpp
+     1>C:\prj\udt4\src\udt.h(248): warning C4251: 'CUDTException::m_strMsg' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CUDTException'
+     1>C:\prj\udt4\src\udt.h(250): warning C4251: 'CUDTException::m_strAPI' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CUDTException'
+     1>C:\prj\udt4\src\udt.h(251): warning C4251: 'CUDTException::m_strDebug' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CUDTException'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../app\recvfile.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../src kernel32.lib user32.lib ws2_32.lib udt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../app\recvfile.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../app\recvfile.lib" /MACHINE:X86 /SAFESEH ../app\recvfile.obj
+         C:\prj\udt4\src\udt.lib
+         recvfile.vcxproj -> C:\prj\udt4\win\../app\recvfile.exe
+       FinalizeBuildStatus:
+         Deleting file "../app\recvfile.tlog\unsuccessfulbuild".
+         Touching "../app\recvfile.tlog\recvfile.lastbuildstate".
+     1>Done Building Project "C:\prj\udt4\win\recvfile.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

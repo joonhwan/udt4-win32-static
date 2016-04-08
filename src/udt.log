@@ -1,0 +1,17 @@
+﻿Build started 2016-04-08 오후 10:49:20.
+     1>Project "C:\prj\udt4\win\udt.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "../src\udt.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         udt.vcxproj -> C:\prj\udt4\win\../src\udt.dll
+       FinalizeBuildStatus:
+         Deleting file "../src\udt.tlog\unsuccessfulbuild".
+         Touching "../src\udt.tlog\udt.lastbuildstate".
+     1>Done Building Project "C:\prj\udt4\win\udt.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

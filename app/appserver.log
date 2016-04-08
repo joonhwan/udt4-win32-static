@@ -1,0 +1,18 @@
+﻿Build started 2016-04-08 오후 10:49:11.
+     1>Project "C:\prj\udt4\win\appserver.vcxproj" on node 3 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (../app\) contains files shared from another project (appclient.vcxproj, recvfile.vcxproj, sendfile.vcxproj, test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>InitializeBuildStatus:
+         Creating "../app\appserver.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         appserver.vcxproj -> C:\prj\udt4\win\../app\appserver.exe
+       FinalizeBuildStatus:
+         Deleting file "../app\appserver.tlog\unsuccessfulbuild".
+         Touching "../app\appserver.tlog\appserver.lastbuildstate".
+     1>Done Building Project "C:\prj\udt4\win\appserver.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20
